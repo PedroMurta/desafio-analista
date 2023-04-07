@@ -66,8 +66,8 @@ vai depender da necessidade e do contexto.
 
 
 ```
-![alt text](https://github.com/PedroMurta/desafio-analista/blob/main/normalizacao1.png?raw=true' width='500px' height='250px')
-![alt text](https://github.com/PedroMurta/desafio-analista/blob/main/normalizacao2.png?raw=true' width='500px' height='250px')
+![alt text](https://github.com/PedroMurta/desafio-analista/blob/main/normalizacao1.png?raw=true)
+![alt text](https://github.com/PedroMurta/desafio-analista/blob/main/normalizacao2.png?raw=true)
 
 - 2ª Etapa:
 ```
