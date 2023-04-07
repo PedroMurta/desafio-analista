@@ -91,7 +91,7 @@ documento do projeto.
 Por preferência pessoal, o dashboard desenvolvido com Python, plotly e streamlit está disponível neste link:
 
 ```
- [Dashboard](desafio-analista-production.up.railway.app)
+ [Dashboard](https://pedromurta-desafio-analista-streamlit-app-48ex30.streamlit.app/)
 
 Há diversas formas e aprimorar e melhorar estas análises e dashboards, podemos melhorar os gráficos com filtros,
 deixando eles interativos, aprimorar as análises com mais profundidade e com um melhor entendimento do negócio. 
