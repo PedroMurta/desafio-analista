@@ -62,8 +62,8 @@ vai depender da necessidade e do contexto.
 
 > Como foi sugerido no desafio, aqui estão 2 exemplos de formas de 3FN feitos no dbdiagram.io:
 
-<img src= 'https://github.com/PedroMurta/desafio-analista/blob/main/normalizacao1.png?raw=true'>
-<img src= 'https://github.com/PedroMurta/desafio-analista/blob/main/normalizacao2.png?raw=true'>
+<img src= 'https://github.com/PedroMurta/desafio-analista/blob/main/normalizacao1.png?raw=true' width='500px' height='250px'>
+<img src= 'https://github.com/PedroMurta/desafio-analista/blob/main/normalizacao2.png?raw=true' width='500px' height='250px'>
 
 ```
 
