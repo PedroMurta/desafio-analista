@@ -85,7 +85,7 @@ No contexto, é possível fazer as consultas com a biblioteca psycopg2 dentro da
 A Etapa de criação de dashboards teve a opção de ser desenvolvida em qualquer ferramenta, desde que fosse mostrado no 
 documento do projeto.
 
-Por preferência pessoal, o dashboard desenvolvido com Python, plotly e streamlit está disponível neste link: [Link]()
+Por preferência pessoal, o dashboard desenvolvido com Python, plotly e streamlit está disponível neste link: [Link](desafio-analista-production.up.railway.app)
 
 ```
 
