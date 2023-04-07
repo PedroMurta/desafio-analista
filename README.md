@@ -52,7 +52,7 @@ Para instanciar um banco de dados a partir dos arquivos csv e xlsx que foram for
 foi escolhido a plataforma Railway para hospedar o banco e também o projeto/repositório. os códigos estão 
 neste notebook: link()[]
 
-##### __Normalização__: A Primeira Forma Normal (1FN) exige que cada atributo de uma tabela possua valores 
+__Normalização__: A Primeira Forma Normal (1FN) exige que cada atributo de uma tabela possua valores 
 atômicos, ou seja, valores que não possam ser divididos em partes menores. Portanto, a tabela Position (arquivo csv)
 já está na 1FN. 
 
