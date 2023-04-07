@@ -93,4 +93,7 @@ Por preferência pessoal, o dashboard desenvolvido com Python, plotly e streamli
 ```
  [Dashboard](desafio-analista-production.up.railway.app)
 
+Há diversas formas e aprimorar e melhorar estas análises e dashboards, podemos melhorar os gráficos com filtros,
+deixando eles interativos, aprimorar as análises com mais profundidade e com um melhor entendimento do negócio. 
+
 Agradeço a oportunidade de participar do processo e do desafio. 
