@@ -81,7 +81,7 @@ Se houver a preferência por consultas SQL, basta fazer a query equivalente aos 
 No contexto, é possível fazer as consultas com a biblioteca psycopg2 dentro das células do notebook.
 
 ```
-[Link](https://github.com/PedroMurta/desafio-analista/blob/main/Desafio_Analista.ipynb).
+[Notebook](https://github.com/PedroMurta/desafio-analista/blob/main/Desafio_Analista.ipynb).
 
 - 3ª Etapa:
 ```
@@ -91,6 +91,6 @@ documento do projeto.
 Por preferência pessoal, o dashboard desenvolvido com Python, plotly e streamlit está disponível neste link:
 
 ```
- [Link](desafio-analista-production.up.railway.app)
+ [Dashboard](desafio-analista-production.up.railway.app)
 
 Agradeço a oportunidade de participar do processo e do desafio. 
