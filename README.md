@@ -50,7 +50,7 @@ python3 app.py
 ```
 Para instanciar um banco de dados a partir dos arquivos csv e xlsx que foram fornecidos e fazer a ingestão,
 foi escolhido a plataforma Railway para hospedar o banco e também o projeto/repositório. os códigos estão 
-neste notebook: link()[]
+neste notebook: [link] (https://github.com/PedroMurta/desafio-analista/blob/main/Desafio_Analista.ipynb)
 
 __Normalização__: A Primeira Forma Normal (1FN) exige que cada atributo de uma tabela possua valores 
 atômicos, ou seja, valores que não possam ser divididos em partes menores. Portanto, a tabela Position (arquivo csv)
@@ -62,14 +62,14 @@ vai depender da necessidade e do contexto.
 
 > Como foi sugerido no desafio, aqui estão 2 exemplos de formas de 3FN feitos no dbdiagram.io:
 
-<img src= ''>
-<img src= ''>
+<img src= 'https://github.com/PedroMurta/desafio-analista/blob/main/normalizacao1.png?raw=true'>
+<img src= 'https://github.com/PedroMurta/desafio-analista/blob/main/normalizacao2.png?raw=true'>
 
 ```
 
 - 2ª Etapa:
 ```
-A criação da query no SQL para retornar a aderência das contas à política de investimentos também está no notebook: ()[].
+A criação da query no SQL para retornar a aderência das contas à política de investimentos também está no notebook: [Link](https://github.com/PedroMurta/desafio-analista/blob/main/Desafio_Analista.ipynb).
 
 Porém, como forma de ter uma melhor visualização da transformação dos dados passo a passo, o foco da busca foi feita com 
 python, pandas e streamlit. 
@@ -85,7 +85,7 @@ No contexto, é possível fazer as consultas com a biblioteca psycopg2 dentro da
 A Etapa de criação de dashboards teve a opção de ser desenvolvida em qualquer ferramenta, desde que fosse mostrado no 
 documento do projeto.
 
-Por preferência pessoal, o dashboard desenvolvido com Python, plotly e streamlit está disponível neste link: ()[]
+Por preferência pessoal, o dashboard desenvolvido com Python, plotly e streamlit está disponível neste link: [Link]()
 
 ```
 
