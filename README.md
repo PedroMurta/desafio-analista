@@ -94,6 +94,6 @@ Por preferência pessoal, o dashboard desenvolvido com Python, plotly e streamli
  [Dashboard](https://pedromurta-desafio-analista-streamlit-app-48ex30.streamlit.app/)
 
 Há diversas formas e aprimorar e melhorar estas análises e dashboards, podemos melhorar os gráficos com filtros,
-deixando eles interativos, aprimorar as análises com mais profundidade e com um melhor entendimento do negócio. 
+melhorar o design da página e deixar os gráficos, aprimorar as análises com mais profundidade e com um melhor entendimento do negócio. 
 
 Agradeço a oportunidade de participar do processo e do desafio. 
