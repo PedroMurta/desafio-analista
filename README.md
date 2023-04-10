@@ -91,10 +91,10 @@ documento do projeto.
 Por preferência pessoal, o dashboard desenvolvido com Python, plotly e streamlit está disponível neste link:
 
 ```
- [Dashboard Streamlit](https://pedromurta-desafio-analista-streamlit-app-48ex30.streamlit.app/)
+ [Dashboard com Streamlit](https://pedromurta-desafio-analista-streamlit-app-48ex30.streamlit.app/)
  
  
- [Dashboard Datapane](https://cloud.datapane.com/reports/R70BGvA/an%C3%A1lises/)
+ [Dashboard com Datapane](https://cloud.datapane.com/reports/R70BGvA/an%C3%A1lises/)
  
  
  
