@@ -84,7 +84,7 @@ No contexto, é possível fazer as consultas com a biblioteca psycopg2 dentro da
 ```
 [Notebook](https://github.com/PedroMurta/desafio-analista/blob/main/Desafio_Analista.ipynb).
 
-`SELECT p.account_code, 
+SELECT p.account_code, 
        p.asset_name, 
        p.asset_cnpj, 
        p.class_name, 
@@ -96,7 +96,7 @@ No contexto, é possível fazer as consultas com a biblioteca psycopg2 dentro da
 FROM position p
 JOIN policy pol ON p.class_name = pol.Classe
 ORDER BY aderencia ASC; 
-`
+
 
 - 3ª Etapa:
 ```
