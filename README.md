@@ -54,7 +54,7 @@ Para instanciar um banco de dados a partir dos arquivos csv e xlsx que foram for
 foi escolhido a plataforma Railway para hospedar o banco e também o projeto/repositório. os códigos estão 
 neste notebook: 
 
-__Normalização__: A Primeira Forma Normal (1FN) exige que cada atributo de uma tabela possua valores 
+Normalização: A Primeira Forma Normal (1FN) exige que cada atributo de uma tabela possua valores 
 atômicos, ou seja, valores que não possam ser divididos em partes menores. Portanto, a tabela Position (arquivo csv)
 já está na 1FN. 
 
@@ -73,7 +73,18 @@ vai depender da necessidade e do contexto.
 ```
 A criação da query no SQL para retornar a aderência das contas à política de investimentos também está no notebook: 
 
-> `SELECT p.account_code, 
+
+Porém, como forma de ter uma melhor visualização da transformação dos dados passo a passo, o foco da busca foi feita com 
+python, pandas e streamlit. 
+
+Se houver a preferência por consultas SQL, basta fazer a query equivalente aos comandos do pandas.
+
+No contexto, é possível fazer as consultas com a biblioteca psycopg2 dentro das células do notebook.
+
+```
+[Notebook](https://github.com/PedroMurta/desafio-analista/blob/main/Desafio_Analista.ipynb).
+
+`SELECT p.account_code, 
        p.asset_name, 
        p.asset_cnpj, 
        p.class_name, 
@@ -86,15 +97,6 @@ FROM position p
 JOIN policy pol ON p.class_name = pol.Classe
 ORDER BY aderencia ASC; 
 `
-Porém, como forma de ter uma melhor visualização da transformação dos dados passo a passo, o foco da busca foi feita com 
-python, pandas e streamlit. 
-
-Se houver a preferência por consultas SQL, basta fazer a query equivalente aos comandos do pandas.
-
-No contexto, é possível fazer as consultas com a biblioteca psycopg2 dentro das células do notebook.
-
-```
-[Notebook](https://github.com/PedroMurta/desafio-analista/blob/main/Desafio_Analista.ipynb).
 
 - 3ª Etapa:
 ```
