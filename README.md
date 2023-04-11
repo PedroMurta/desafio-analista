@@ -86,7 +86,7 @@ No contexto, é possível fazer as consultas com a biblioteca psycopg2 dentro da
 
 ------------------------------------------- 
 Query SQL:
--   Query
+
         Select
          p.account_code, 
          p.asset_name, 
