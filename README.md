@@ -88,17 +88,41 @@ No contexto, é possível fazer as consultas com a biblioteca psycopg2 dentro da
 Query SQL:
 
         Select
+        
+        
          p.account_code, 
+         
+         
          p.asset_name, 
+         
+         
          p.asset_cnpj, 
+         
+         
         p.class_name, 
+        
+        
          ((p.position_value - pol.Conservador)^2 + 
+         
+         
         (p.position_value - pol."Moderado Conservador")^2 + 
+        
+        
         (p.position_value - pol.Moderado)^2 + 
+        
+        
         (p.position_value - pol."Moderado Agressivo")^2 + 
+        
+        
         (p.position_value - pol.Agressivo)^2)^0.5 AS aderencia
+        
+        
         FROM position p
+        
+        
         JOIN policy pol ON p.class_name = pol.Classe
+        
+        
         ORDER BY aderencia ASC; 
  
 
