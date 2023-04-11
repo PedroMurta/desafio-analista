@@ -84,19 +84,6 @@ No contexto, é possível fazer as consultas com a biblioteca psycopg2 dentro da
 ```
 [Notebook](https://github.com/PedroMurta/desafio-analista/blob/main/Desafio_Analista.ipynb).
 
-SELECT p.account_code, 
-       p.asset_name, 
-       p.asset_cnpj, 
-       p.class_name, 
-       ((p.position_value - pol.Conservador)^2 + 
-        (p.position_value - pol."Moderado Conservador")^2 + 
-        (p.position_value - pol.Moderado)^2 + 
-        (p.position_value - pol."Moderado Agressivo")^2 + 
-        (p.position_value - pol.Agressivo)^2)^0.5 AS aderencia
-FROM position p
-JOIN policy pol ON p.class_name = pol.Classe
-ORDER BY aderencia ASC; 
-
 
 - 3ª Etapa:
 ```
@@ -111,6 +98,21 @@ Por preferência pessoal, o dashboard desenvolvido com Python, plotly e streamli
  
  [Dashboard com Datapane](https://cloud.datapane.com/reports/R70BGvA/an%C3%A1lises/)
  
+ 
+Query SQL:
+`SELECT p.account_code, 
+       p.asset_name, 
+       p.asset_cnpj, 
+       p.class_name, 
+       ((p.position_value - pol.Conservador)^2 + 
+        (p.position_value - pol."Moderado Conservador")^2 + 
+        (p.position_value - pol.Moderado)^2 + 
+        (p.position_value - pol."Moderado Agressivo")^2 + 
+        (p.position_value - pol.Agressivo)^2)^0.5 AS aderencia
+FROM position p
+JOIN policy pol ON p.class_name = pol.Classe
+ORDER BY aderencia ASC; 
+`
  
  
 Há diversas formas e aprimorar e melhorar estas análises e dashboards, podemos melhorar os gráficos com filtros,
