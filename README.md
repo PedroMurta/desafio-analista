@@ -70,6 +70,7 @@ vai depender da necessidade e do contexto.
 ![alt text](https://github.com/PedroMurta/desafio-analista/blob/main/normalizacao2.png?raw=true)
 
 - 2ª Etapa:
+
 ```
 A criação da query no SQL para retornar a aderência das contas à política de investimentos também está no notebook: 
 
@@ -82,22 +83,7 @@ Se houver a preferência por consultas SQL, basta fazer a query equivalente aos 
 No contexto, é possível fazer as consultas com a biblioteca psycopg2 dentro das células do notebook.
 
 ```
-[Notebook](https://github.com/PedroMurta/desafio-analista/blob/main/Desafio_Analista.ipynb).
 
-
-- 3ª Etapa:
-```
-A Etapa de criação de dashboards teve a opção de ser desenvolvida em qualquer ferramenta, desde que fosse mostrado no 
-documento do projeto.
-
-Por preferência pessoal, o dashboard desenvolvido com Python, plotly e streamlit está disponível neste link:
-
-```
- [Dashboard com Streamlit](https://pedromurta-desafio-analista-streamlit-app-48ex30.streamlit.app/)
- 
- 
- [Dashboard com Datapane](https://cloud.datapane.com/reports/R70BGvA/an%C3%A1lises/)
- 
  
 Query SQL:
 -   Query
@@ -115,6 +101,27 @@ Query SQL:
         JOIN policy pol ON p.class_name = pol.Classe
         ORDER BY aderencia ASC; 
  
+
+
+[Notebook](https://github.com/PedroMurta/desafio-analista/blob/main/Desafio_Analista.ipynb).
+
+
+- 3ª Etapa:
+
+```
+- A Etapa de criação de dashboards teve a opção de ser desenvolvida em qualquer ferramenta, desde que fosse mostrado no 
+documento do projeto.
+
+- Por preferência pessoal, o dashboard desenvolvido com Python, plotly e streamlit está disponível neste link:
+```
+
+
+ [Dashboard com Streamlit](https://pedromurta-desafio-analista-streamlit-app-48ex30.streamlit.app/)
+ 
+ 
+ [Dashboard com Datapane](https://cloud.datapane.com/reports/R70BGvA/an%C3%A1lises/)
+ 
+
  
 Há diversas formas e aprimorar e melhorar estas análises e dashboards, podemos melhorar os gráficos com filtros,
 melhorar o design da página e deixar os gráficos, aprimorar as análises com mais profundidade e com um melhor entendimento do negócio!
