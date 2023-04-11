@@ -84,7 +84,7 @@ No contexto, é possível fazer as consultas com a biblioteca psycopg2 dentro da
 
 ```
 
- 
+------------------------------------------- 
 Query SQL:
 -   Query
         Select
@@ -105,7 +105,7 @@ Query SQL:
 
 [Notebook](https://github.com/PedroMurta/desafio-analista/blob/main/Desafio_Analista.ipynb).
 
-
+--------------------------------
 - 3ª Etapa:
 
 ```
