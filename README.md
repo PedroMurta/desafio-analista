@@ -73,6 +73,19 @@ vai depender da necessidade e do contexto.
 ```
 A criação da query no SQL para retornar a aderência das contas à política de investimentos também está no notebook: 
 
+> `SELECT p.account_code, 
+       p.asset_name, 
+       p.asset_cnpj, 
+       p.class_name, 
+       ((p.position_value - pol.Conservador)^2 + 
+        (p.position_value - pol."Moderado Conservador")^2 + 
+        (p.position_value - pol.Moderado)^2 + 
+        (p.position_value - pol."Moderado Agressivo")^2 + 
+        (p.position_value - pol.Agressivo)^2)^0.5 AS aderencia
+FROM position p
+JOIN policy pol ON p.class_name = pol.Classe
+ORDER BY aderencia ASC; 
+`
 Porém, como forma de ter uma melhor visualização da transformação dos dados passo a passo, o foco da busca foi feita com 
 python, pandas e streamlit. 
 
