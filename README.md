@@ -146,8 +146,9 @@ documento do projeto.
  [Dashboard com Datapane](https://cloud.datapane.com/reports/R70BGvA/an%C3%A1lises/)
  
 
- 
-Há diversas formas e aprimorar e melhorar estas análises e dashboards, podemos melhorar os gráficos com filtros,
-melhorar o design da página e deixar os gráficos, aprimorar as análises com mais profundidade e com um melhor entendimento do negócio!
+-----------------------------
+Há diversas formas e aprimorar e melhorar estas análises e dashboards, melhorar as análises respondendo algumas perguntas 
+principais que o analista precisa fazer antes de começar o processo, podemos melhorar os gráficos com filtros,
+melhorar o design da página e deixar os gráficos interativos, aprimorar as análises com mais profundidade e com um melhor entendimento do negócio!
 
 Agradeço a oportunidade de participar do processo e do desafio. 
